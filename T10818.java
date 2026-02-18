@@ -7,6 +7,7 @@ public class T10818 {
 
         // 숫자를 N번 받을지 입력을 받는다.
         int N = sc.nextInt();
+        // 이렇게 하면은 음수일 경우 대비를 하지 못한다.
         int max = 0;
 
         int arr[] = new int[N];
