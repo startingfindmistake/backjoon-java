@@ -1,3 +1,4 @@
+// N이 0이 들어갈때 방어코드 작성
 import java.util.Scanner;
 
 public class T10818_1 {
