@@ -22,7 +22,7 @@ public class T2562 {
 
         // 반복문을 통해 비교 조건을 하여 몇번째 인덱스 인지 확인
         for (int i = 1; i < 10; i++) {
-            if(max < arr[i]){
+            if(max <= arr[i]){
                 max = arr[i];
                 count = i;
             }
