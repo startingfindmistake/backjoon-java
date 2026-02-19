@@ -18,11 +18,11 @@ public class T2562 {
         // max 선언과 동시에 초기화
         int max = arr[1];
         // 몇번째 인덱스인지 확인하기 위한 선언
-        int count = 0;
+        int count = 1;
 
         // 반복문을 통해 비교 조건을 하여 몇번째 인덱스 인지 확인
         for (int i = 1; i < 10; i++) {
-            if(max <= arr[i]){
+            if(max < arr[i]){
                 max = arr[i];
                 count = i;
             }
