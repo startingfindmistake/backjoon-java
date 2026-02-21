@@ -1,3 +1,6 @@
+//StringBuilder클래스를 활용하여
+// append()함수로 결과값을 저장함
+
 import java.util.Scanner;
 
 public class T9086 {
