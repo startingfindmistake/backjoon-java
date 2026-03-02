@@ -20,8 +20,10 @@ public class T2675 {
             // 문자열을 입력 받는다.
             String B = sc.next();
 
-            // 문자를 반복한다.
-            for(int j = 0; j < R; j++){
+            // 문자열를 반복한다.
+            // 그런데 문자열에서 각 문자를 추출해서 반복해야 한다.
+            // 문자열에서 각 문자를 추출하기 위해 반복문으로 문자를 하나씩 읽어 들여 반복한다.
+            for(int j = 0; j < B.length.B; j++){
                 sb.append(B);
             }
             sb.append("\n");
