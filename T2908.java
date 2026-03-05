@@ -25,14 +25,13 @@ public class T2908 {
         int F = Integer.parseInt(D);
 
 
-        // 그리고 그 문자열를 각자 뒤집어야 한다.
-        if(){
-
+        // E변수와 F변수 둘다 정수형 integer로 변환하였기 때문에 if문 조건문에 사용이 가능하다.
+        if(E > F){
+            System.out.println(E);
         }
-
-        // 뒤집은 정수를 다른 변수에 다시 저장한다. C, D
-
-        // 뒤집은 정수를 비교해보자(if문을 사용한다.)
+        else {
+            System.out.println(F);
+        }
 
     }
 }
