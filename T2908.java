@@ -19,7 +19,8 @@ public class T2908 {
         StringBuilder sb2 = new StringBuilder(B);
         String D = sb2.reverse().toString();
 
-
+        //if 문을 사용하기 위해
+        //java.lang.Integer에서 parseInt()메서드를 사용하여 문자열을 정수로 변환함
         int E = Integer.parseInt(C);
         int F = Integer.parseInt(D);
 
